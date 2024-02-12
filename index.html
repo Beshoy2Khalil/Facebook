@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./65R.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c52864c0d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+
+        </div>
+<!--------settings-menu----->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Beshoy Khalil</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedbac6k.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+
+
+            </div>
+           
+        </div>
+
+
+    </nav>
+
+    <div class="container">
+    <!--------left-sidebar----->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png"> Latest News</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png"> Group</a>
+                <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png"> Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png"> Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png"> Website Experts</a>
+            </div>
+        </div>
+        <!-------"mani content------>
+        <div class="mani-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>بيشوي خليل</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>beshoy khalil</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>ايام بتعدي</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>Beshoy Khalil</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Beshoy Khalil</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Beshoy?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo / Video</a>
+                        <a href="#"><img src="images/feeling.png"> Feling / Activity</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Beshoy Khalil</p>
+                            <span>January 26 2024, 15:03 Pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Personal Website, <a href="https://beshoy2khalil.github.io/Websit1/" target="_blank"> Website</a></p>
+                <img src="images/project-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 5737</div>
+                        <div><img src="images/comments.png"> 4238</div>
+                        <div><img src="images/share.png"> 4836</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Beshoy Khalil</p>
+                            <span>January 26 2024, 11:53 Pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">It's a beautiful bird </p>
+                <img src="images/pexels-liudmyla-shalimova-20013185.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 5737</div>
+                        <div><img src="images/comments.png"> 4238</div>
+                        <div><img src="images/share.png"> 4836</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/photo2.png">
+                        <div>
+                            <p> ايام بتعدي </p>
+                            <span>January 26 2024, 5:37 Pm</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <p class="post-text"> انه نهر جميل </p>
+                <img src="images/pexels-pexels-user-20008219.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 5737</div>
+                        <div><img src="images/comments.png"> 4238</div>
+                        <div><img src="images/share.png"> 4836</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Beshoy Khalil</p>
+                            <span>January 26 2024, 8:47 Pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Personal Website, <a href="https://beshoy2khalil.github.io/Websit1/" target="_blank"> Website</a></p>
+                
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 5737</div>
+                        <div><img src="images/comments.png"> 4238</div>
+                        <div><img src="images/share.png"> 4836</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Beshoy Khalil</p>
+                            <span>January 25 2024, 21:53 Pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Personal Website, <a href="https://beshoy2khalil.github.io/Websit1/" target="_blank"> Website</a></p>
+                <img src="images/project-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 5737</div>
+                        <div><img src="images/comments.png"> 4238</div>
+                        <div><img src="images/share.png"> 4836</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/testimonial1.jpg">
+                        <div>
+                            <p>Ahmed Ali</p>
+                            <span>January 25 2024, 19:42 Pm</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <p class="post-text">This is my city, it is beautiful and amazing </p>
+                <img src="images/pexels-yasemin-gunes-19763781.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png"> 9837</div>
+                        <div><img src="images/comments.png"> 9532</div>
+                        <div><img src="images/share.png"> 6824</div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+
+
+
+
+
+        </div>
+        <!-------"right sidebar------>
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>14</h3>
+                    <span>April</span>
+            </div>
+            <div class="right-event">
+                <h4>Birthday</h4>
+                <p>Beshoy Khalil</p><p><i class="fa-solid fa-location-dot"></i> Egypt Minya</p>
+                <a href="#">More Info</a>
+            </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>15</h3>
+                    <span>April</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Medic</h4>
+                <p>Beshoy Khalil</p><p><i class="fa-solid fa-location-dot"></i> Opening of the new branch</p><p>in Egypt - Minya</p>
+                <a href="#">More Info</a>
+            </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.jpg" class="sidebar-ads">
+            <img src="images/OIP.jpg" class="sidebar-ads">
+            
+            
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>BESHOY KHALIL</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>beshoy khalil</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>ايام بيعدي</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png">
+                </div>
+                <p>بيشوي خليل</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-5.png">
+                </div>
+                <p>البشمهندس</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-6.png">
+                </div>
+                <p>دكتور</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-7.png">
+                </div>
+                <p>engineer</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-9.png">
+                </div>
+                <p>Beshoy khalil 1</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2024 </p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
